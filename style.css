@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.card-me{
+       /* border-width: 2px;
+        border-color: black;
+        border-style: solid; */
+        border-radius: 10px;
+        margin: auto;
+        width: 300px;
+        padding: 10px;
+        box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+.card-img{
+   width: 100%;
+   border-radius: 10px;
+}
+
+.card-h1{
+    text-align: center;
+}
+
+.card-p{
+    text-align: center;
+}
+
+.card-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.card-table th,td{
+    border: 1px solid;
+}
+
+nav{
+    display: inline;
+
+}
+
+.nav-flex{
+    background-color:#f4f3f3 ;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+  }
+
+.ul-flex{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+.nav-img{
+    height: 30px;
+}
+
+nav .btn-contact-me{
+    display: flex;
+    width: 80%;
+
+    justify-content: flex-end;
+}
+
+.form_contact{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.form_contact_form{
+    display: flex; 
+    flex-direction: column; 
+    width: 300px; 
+    gap: 10px
+}
+
+label{
+    display: block;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+}
+
+.btn-submit {
+    background-color: red;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 10px;
+  }
